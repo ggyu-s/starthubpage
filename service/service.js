@@ -28,28 +28,30 @@ about.addEventListener("mouseover", () => {
   about.style.color = "#3A2053";
 });
 about.addEventListener("mouseleave", () => {
-  if (!aboutDrop.classList.contains("about_drop_on")) {
+  if (
+    !aboutDrop.classList.contains("about_drop_on") &&
+    !aboutDrop.classList.contains("about_drop_visible")
+  ) {
     about.style.color = "#CCCCCC";
   }
-  console.log(aboutDrop.style.display);
 });
 
 aboutDropList.forEach((v) => {
   v.addEventListener("mouseover", () => {
     v.style.color = "#3A2053";
   });
-  v.addEventListener("mouseleave", () => {
+  v.addEventListener("mouseleave", (e) => {
     v.style.color = "#CCCCCC";
   });
   v.addEventListener("click", (e) => {
     if (e.target.innerText === "STARTHUB") {
-      location.href = "./about/starthub.html";
+      location.href = "../about/starthub.html";
     } else if (e.target.innerText === "HISTORY") {
-      location.href = "./about/history.html";
+      location.href = "../about/history.html";
     } else if (e.target.innerText === "PRESS") {
-      location.href = "./about/press.html";
+      location.href = "../about/press.html";
     } else if (e.target.innerText === "PHOTO") {
-      location.href = "./about/photo.html";
+      location.href = "../about/photo.html";
     }
   });
 });
@@ -92,9 +94,9 @@ crewDropList.forEach((v) => {
   });
   v.addEventListener("click", (e) => {
     if (e.target.innerText === "CREW") {
-      location.href = "./crew/crew.html";
+      location.href = "../crew/crew.html";
     } else if (e.target.innerText === "Partnership") {
-      location.href = "./crew/partnership.html";
+      location.href = "../crew/partnership.html";
     }
   });
 });
@@ -113,7 +115,7 @@ service.addEventListener("mouseleave", () => {
 });
 
 service.addEventListener("click", () => {
-  location.href = "./service/service.html";
+  location.href = "./service.html";
 });
 
 contact.addEventListener("mouseover", () => {
@@ -123,5 +125,5 @@ contact.addEventListener("mouseleave", () => {
   contact.style.color = "#CCCCCC";
 });
 contact.addEventListener("click", () => {
-  location.href = "./contact/contact.html";
+  location.href = "../contact/contact.html";
 });
