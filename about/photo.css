@@ -223,6 +223,7 @@ a {
 }
 .container_top_bc div {
   color: white;
+  font-size: 25px;
   margin-left: 50px;
   margin-bottom: 20px;
   font-weight: bold;
@@ -282,12 +283,12 @@ a {
 }
 
 .img_b {
-  background-image: url(../images/press02.jpg);
+  background-image: url(../images/startupdate/2\(1\).jpg);
   width: 320px;
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: -40px;
+  background-position-x: -410px;
   position: relative;
   overflow: hidden;
   z-index: 9998;
@@ -313,7 +314,7 @@ a {
 }
 
 .img_c {
-  background-image: url(../images/press03.jpg);
+  background-image: url(../images/startupdate/3\(1\).jpg);
   width: 320px;
   height: 500px;
   background-size: cover;
@@ -343,7 +344,7 @@ a {
 }
 
 .img_d {
-  background-image: url(../images/press03.jpg);
+  background-image: url(../images/startupdate/4\(1\).jpg);
   width: 320px;
   height: 500px;
   background-size: cover;
@@ -353,6 +354,7 @@ a {
   overflow: hidden;
   margin-top: 50px;
 }
+
 .img_d_text_wrapper {
   width: 100%;
   height: 500px;
