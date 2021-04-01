@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   letter-spacing: -1px;
 }
 a {
@@ -20,7 +20,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-.main_logo img{
+.main_logo img {
   cursor: pointer;
 }
 /* 
@@ -45,11 +45,11 @@ a {
   width: 150px;
   margin: auto;
   text-align: left;
-  color: #CCCCCC;
+  color: #cccccc;
   font-size: 15px;
   font-weight: bold;
 }
-.nav_list li{
+.nav_list li {
   margin-bottom: 10px;
 }
 /* 
@@ -60,7 +60,7 @@ a {
   overflow: hidden;
   font-size: 11px;
 }
-.about_drop li{
+.about_drop li {
   cursor: pointer;
   margin-bottom: 0;
   height: 25%;
@@ -76,10 +76,9 @@ a {
   }
 }
 .nav_crew,
-.nav_about, 
+.nav_about,
 .nav_service,
-.nav_contact
-{
+.nav_contact {
   cursor: pointer;
   height: 30px;
   line-height: 30px;
@@ -115,7 +114,7 @@ a {
   font-size: 11px;
   height: 50px;
 }
-.crew_drop li{
+.crew_drop li {
   cursor: pointer;
   margin-bottom: 0;
   height: 50%;
@@ -164,17 +163,16 @@ a {
   bottom: 0;
   height: 200px;
   width: 250px;
-  background-color: #EFEFEF;
+  background-color: #efefef;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer div{
+.footer div {
   text-align: left;
   font-size: 11px;
-  color: #9A9A9A;
+  color: #9a9a9a;
   line-height: 20px;
-  
 }
 
 /*
@@ -188,17 +186,17 @@ a {
   min-height: 100%;
   width: 100%;
 }
-.container_wrapper{
-  background-color:rgba(58, 32, 83, 0.7);
+.container_wrapper {
+  background-color: rgba(58, 32, 83, 0.7);
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.container_wrapper div{
+.container_wrapper div {
   color: white;
   text-align: center;
-  line-height: 40px;
-  font-size: 30px;
+  line-height: 70px;
+  font-size: 50px;
 }
